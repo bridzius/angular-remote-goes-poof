@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'repro-host',
-  preset: '../../jest.preset.js',
+  displayName: 'test-host',
+  preset: '../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/repro-host',
+  coverageDirectory: '../coverage/test-host',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
